@@ -273,7 +273,7 @@ Since react already has a .gitingnore file, select no
 ```sh
 ? Do you want to add a .gitignore? (Y/n) › n
 ```
-Since hardhat relies on other dependencies, we will need to install then, however for the purpose of keeping the comparision as close as possible, we will install them ourselves
+Since hardhat relies on other dependencies, we will need to install them, however for the purpose of keeping the comparision as close as possible, we will install them ourselves
 
 >Hardhat usually use ethers.js but since truffle uses web3.js, we will use web3.js with hardhat as well
 

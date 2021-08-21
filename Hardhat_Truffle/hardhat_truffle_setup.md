@@ -312,4 +312,4 @@ npm i web3
 
  We have nowseen how to completely set up and install a React project with both Truffle and Hardhat
 
-Next we will configure both the development enviroment and start writing a contract!
+In we will configure both the development enviroment and start writing a contract!

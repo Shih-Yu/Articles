@@ -1,4 +1,4 @@
-# React Project Setup Using Hardhat & Truffle
+# React Project Setup Using Hardhat & Truffle - part 1
 
 We will explore Truffle and Hardhat side by side to translate their commands and how to adapt from one to the other by creating a small project in React.
 

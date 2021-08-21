@@ -16,11 +16,14 @@ Let's configure our complier version for Solidity as well as the network we will
 ## Networks
 
 ---
-This is referring to how we are planning to have our contract deployed to and interact with.
+This is referring to where we are planning to have our contract deployed to and interact with.
 
->In this example, we will use a localhost for our deployment.
+>In this example, we will use a local blockchain for our deployment since we will be provided with accounts, private keys and already be funded
 
-* Localhost - running a small version of a blockchain on our computer
+* Local - running a version of a blockchain on our computer
+
+>When using a testnet option, a wallet will have to be created and you will have get fake ethers for testing from a faucet of the chosen testnet.
+[Metamask](https://metamask.io/) is one option for a wallet and fairly easy to use
 
 * Testnet - a simulation of the Ethereum mainnet where you use fake ethers to pay for contract interactions and gas fees below is a list of testnest:
 
@@ -31,6 +34,8 @@ This is referring to how we are planning to have our contract deployed to and in
   * [Rinkey](https://faucet.rinkeby.io/)
 
   * [Goerli](https://goerli.net/)
+
+>The real thing and uses real ether for interaction
 
 * Mainnet - the Ethereum blockchain
 
@@ -104,7 +109,9 @@ Once the installation is complete, we will set it up in our truffle-config.js by
   },
 ```
 
-Now that Ganache is configure, let's running it by going to our terminal
+Now that Ganache is configure, let's run it by going to our terminal
+
+>This should be running when interacting with the smart contract
 
 ```sh
 ganache-cli
@@ -172,7 +179,7 @@ Now we have a blockchain on our computer that has 10 accounts prefunded with 100
 
 First we will set up our Solidity compiler to the version that we will be using in our smart contracts
 
-Open ```hardhat.config.js``` file and under the compiler object go to ```solc:``` and set it to version ```0.8.6``` for this example
+Open ```hardhat.config.js``` file and under ```module.exports``` go to ```solidity:``` and set it to version ```0.8.6``` for this example
 
 >Hardhat already has it set to ```0.8.4```
 
@@ -187,7 +194,7 @@ module.exports = {
 
 The next step is to set up our networks.
 
-Since there is not format provided when, we will set it up like this
+Since there's no format provided, we will set it up like this
 
 >More can information on Hardhat config can be found [Here](https://hardhat.org/config/)
 
@@ -206,7 +213,9 @@ module.exports = {
  
 ```
 
-Now that Hardhat is configure, let's running it by going to our terminal
+Now that Hardhat is configured, let's run it by going to our terminal
+
+>This should be running when interacting with the smart contract
 
 ```sh
 npx hardhat node

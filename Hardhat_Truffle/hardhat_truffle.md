@@ -17,9 +17,9 @@ Truffle and Hardhat are both a development enviroment for writing smart contract
 
 You can learn more about each here:
 
-[Truffle]("https://www.trufflesuite.com/docs/truffle/overview")
+[Truffle](https://www.trufflesuite.com/docs/truffle/overview)
 
-[Hardhat]("https://www.trufflesuite.com/docs/truffle/overview")
+[Hardhat](https://www.trufflesuite.com/docs/truffle/overview)
 
 ## Project Setup
 

@@ -6,9 +6,11 @@ Now we will write a simple smart contract and deploy it to our local blockchain
 
 ---
 
+>We can ignore the existing contract for now but feel free to explore them
+
 For both Truffle and Hardhat, we can create a new file inside the contract folder
 
->Solidiyt is the lauguage that will be used for our example. More information about it can be found [HERE](https://docs.soliditylang.org/en/v0.8.7/)
+>Solidity is the lauguage that will be used for our example. More information about it can be found [HERE](https://docs.soliditylang.org/en/v0.8.7/)
 
 - [ ] Name it ```NumberChanger.sol```
 
@@ -82,7 +84,7 @@ contract NumberChanger {
 }
 ```
 
-Now we written a smart contract that allows the number to be stored and updated
+Now we written a smart contract that allows the number to be stored and updated on the blockchain
 
 ## Hardhat
 
@@ -103,7 +105,7 @@ pragma solidity ^0.8.6;
 import "hardhat/console.sol";
 ```
 
-- [ ] Add it to where you would to see an output
+- [ ] Add it to where you would like to see an output
 
 ```js
 // SPDX-License-Identifier: MIT

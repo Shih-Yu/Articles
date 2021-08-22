@@ -116,7 +116,7 @@ import "hardhat/console.sol";
 contract NumberChanger {
   uint256 number
 
-  function getNumber() public views returns(uint256) {
+  function getNumber() public view returns(uint256) {
     return number;
   }
 
@@ -138,7 +138,7 @@ pragma solidity ^0.8.6;
 contract NumberChanger {
   uint256 number
 
-  function getNumber() public views returns(uint256) {
+  function getNumber() public view returns(uint256) {
     return number;
   }
 

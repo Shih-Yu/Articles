@@ -293,3 +293,5 @@ Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
 </details>
 
 Now we have a blockchain on our computer that has 20 accounts prefunded with 1000 ethers and their private keys
+
+In part 3 we will write a simple smart contract

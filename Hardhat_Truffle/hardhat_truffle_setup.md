@@ -5,7 +5,7 @@ We will explore Truffle and Hardhat side by side to translate their commands and
 ## About
 
 ---
-Truffle and Hardhat are both a development enviroment for writing smart contracts on the Ethereum blockchain. These tools allows developers to:
+Truffle and Hardhat are both a development environment for writing smart contracts on the Ethereum blockchain. These tools allows developers to:
 
 - Compile contracts
 

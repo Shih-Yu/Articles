@@ -234,7 +234,6 @@ npx hardhat
 <details> <summary>See output</summary>
 
 ```sh
-npx hardhat
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
@@ -273,7 +272,8 @@ Since react already has a .gitingnore file, select no
 ```sh
 ? Do you want to add a .gitignore? (Y/n) › n
 ```
-Since hardhat relies on other dependencies, we will need to install them, however for the purpose of keeping the comparision as close as possible, we will install them ourselves
+
+Since hardhat relies on other dependencies, we will need to install them, however for the purpose of keeping the comparison as close as possible, we will install them ourselves
 
 >Hardhat usually use ethers.js but since truffle uses web3.js, we will use web3.js with hardhat as well
 
@@ -294,11 +294,11 @@ See the README.txt file for some example tasks you can run.
 
 For this section, we will only install dependencies for hardhat since that is it's nature and truffle already comes with everything you need
 
-### Hardhat Installing Depenedencies
+### Hardhat Installing Dependencies
 
 We will need web3.js to interact with the blockchain in our project later on
 
->This lets hardhat intercact with web3.js library
+>This lets hardhat interact with web3.js library
 
 ```sh
 npm i @nomiclabs/hardhat-web3
@@ -310,6 +310,6 @@ npm i @nomiclabs/hardhat-web3
 npm i web3
 ```
 
- We have nowseen how to completely set up and install a React project with both Truffle and Hardhat
+ We have now know how to completely set up and install a React project with both Truffle and Hardhat
 
-In part 2 we will configure both the development enviroment and start writing a contract!
+In part 2 we will configure both the development environment and start writing a contract!

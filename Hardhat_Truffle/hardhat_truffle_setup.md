@@ -21,7 +21,7 @@ You can learn more about each here:
 
 [Hardhat](https://www.trufflesuite.com/docs/truffle/overview)
 
-## Project Setup
+## 
 
 ---
 

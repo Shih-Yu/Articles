@@ -1,12 +1,12 @@
 # React Project Setup Using Hardhat & Truffle - part 2
 
-Now that we have our project set up, we will have to do some configurations before we start writing our contract
+Now that we have our project set up from part 1, we will have to do some configurations before we start writing our contract
 
 ## Configuration Setup
 
 ---
 
-Each project should now have a configuation file in the root directory
+Each project should now have a configuration file in the root directory
 for Truffle it should be named ```truffle-config.js```
 
 For Hardhat it should be named ```hardhat.config.js```
@@ -18,7 +18,7 @@ Let's configure our complier version for Solidity as well as the network we will
 ---
 This is referring to where we are planning to have our contract deployed to and interact with.
 
->In this example, we will use a local blockchain for our deployment since we will be provided with accounts, private keys and already be funded
+>In this example, we will use a local blockchain for our deployment since we will be provided with accounts, private keys and already pre-funded with test Ethers
 
 * Local - running a version of a blockchain on our computer
 
@@ -49,7 +49,7 @@ First we will set up our Solidity compiler to the version that we will be using 
 
 Open ```truffle-config.js``` file and under the compiler object go to ```solc:``` and set it to version ```0.8.6``` for this example
 
->You have the option to leave the other parameters commented out or they can be deleted since this example will not utilize them. It is left commented out to match as close to the example you might see.
+>You have the option to leave the other parameters commented out or they can be deleted since this example will not utilize them. It is left commented out to match as close to the example that you might see.
 
 ```js
 compilers: {
@@ -88,9 +88,9 @@ or globally on your computer
 npm i -g ganache-cli
 ```
 
-Once the installation is complete, we will set it up in our truffle-config.js by uncommentting the development object, host, port and network_id
+Once the installation is complete, we will set it up in our truffle-config.js by uncommenting the development object, host, port and network_id
 
->More can information on Truffle config can be found [Here](https://hardhat.org/config/)
+>More can information on Truffle config can be found [Here](https://www.trufflesuite.com/docs/truffle/reference/configuration/)
 
 ```js
  networks: {
@@ -169,7 +169,7 @@ Call Gas Limit
 
 </details>
 
-Now we have a blockchain on our computer that has 10 accounts prefunded with 100 ethers and their private keys, along with the Mnemonic seed phrase
+Now we have a blockchain on our computer that has 10 accounts pre-funded with 100 ethers and their private keys, along with the Mnemonic seed phrase
 
 <br>
 
@@ -194,7 +194,7 @@ module.exports = {
 
 The next step is to set up our networks.
 
-Since there's no format provided, we will set it up like this
+Since there's no format provided, we will set it up like this:
 
 >More can information on Hardhat config can be found [Here](https://hardhat.org/config/)
 
@@ -292,6 +292,6 @@ Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
 
 </details>
 
-Now we have a blockchain on our computer that has 20 accounts prefunded with 1000 ethers and their private keys
+Now we have a blockchain on our computer that has 20 accounts pre-funded with 1000 ethers and their private keys
 
 In part 3 we will write a simple smart contract

@@ -10,7 +10,7 @@ Now we will write a simple smart contract and deploy it to our local blockchain
 
 For both Truffle and Hardhat, we can create a new file inside the contract folder
 
->Solidity is the lauguage that will be used for our example. More information about it can be found [HERE](https://docs.soliditylang.org/en/v0.8.7/)
+>Solidity is the language that will be used for our example. More information about it can be found [HERE](https://docs.soliditylang.org/en/v0.8.7/)
 
 - [ ] Name it ```NumberChanger.sol```
 
@@ -50,14 +50,14 @@ contract NumberChanger {
 }
 ```
 
-- [ ] Create a function that allows to retrieve the number stored in the state variable
+- [ ] Create a function that will retrieve the number stored in the state variable
 
 ```js
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.6;
 
 contract NumberChanger {
-  uint256 number
+  uint256 number;
 
   function getNumber() public views returns(uint256) {
     return number;
@@ -72,19 +72,19 @@ contract NumberChanger {
 pragma solidity ^0.8.6;
 
 contract NumberChanger {
-  uint256 number
+  uint256 number;
 
   function getNumber() public views returns(uint256) {
     return number;
   }
 
   function setNumber(uint256 _number) public {
-    number = _number
+    number = _number;
   }
 }
 ```
 
-Now we written a smart contract that allows the number to be stored and updated on the blockchain
+We now have written a smart contract that allows the number to be stored and updated on the blockchain
 
 ## Hardhat
 
@@ -114,14 +114,14 @@ pragma solidity ^0.8.6;
 import "hardhat/console.sol";
 
 contract NumberChanger {
-  uint256 number
+  uint256 number;
 
   function getNumber() public view returns(uint256) {
     return number;
   }
 
   function setNumber(uint256 _number) public {
-    number = _number
+    number = _number;
     console.log(number)
   }
 }
@@ -136,14 +136,14 @@ The finished contract should look like this
 pragma solidity ^0.8.6;
 
 contract NumberChanger {
-  uint256 number
+  uint256 number;
 
   function getNumber() public view returns(uint256) {
     return number;
   }
 
   function setNumber(uint256 _number) public {
-    number = _number
+    number = _number;
   }
 }
 ```

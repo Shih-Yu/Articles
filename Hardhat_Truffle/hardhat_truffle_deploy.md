@@ -17,7 +17,7 @@ cd truffle-example
 
   ```2_NumberChanger.js```
 
-- [ ]Inside ```2_NumberChanger.js``` we will write the follwoing script
+- [ ]Inside ```2_NumberChanger.js``` we will write the following script
 
 ```js 
 const NumberChanger = artifacts.require("NumberChanger");
@@ -39,7 +39,7 @@ Now that we are setup, lets deploy our contract
 - [ ] Run the following in the terminal
 
 ```sh
-truffile compile
+truffle compile
 ```
 
 <br>
@@ -221,13 +221,13 @@ The contract is now deployed, can you can see the contact addresses
 
 One last thing is to move the ```build``` folder. By default, it will be created in the root directory, but since we will be interacting with in from the front end with React, it should be located in the ```src``` folder.
 
-In the truffle-config.js file, 
+In the truffle-config.js file,
 add the following code before ```module.exports```
 
 ```sh
 const path = require("path")
 ```
-place the following code under the the ```module.exports```
+place the following code under the ```module.exports```
 
 ```sh
    contracts_build_directory: path.join(__dirname, "src/build"),
@@ -270,7 +270,7 @@ cd hardhat-example
 
  Before we can deploy our contract, we first have to add some code for hardhat to deploy our contract
 
-- [ ] Go to the scripts folder and rename the file ```sample-script.js``` to ``deploy.js```
+- [ ] Go to the scripts folder and rename the file ```sample-script.js``` to ```deploy.js```
 
 - [ ] Next, under the line:
 
@@ -324,7 +324,7 @@ main()
   });
 ```
 
-- [ ] Run the follwoing in the terminal
+- [ ] Run the following in the terminal
 
 ```sh
 npx hardhat compile
@@ -345,7 +345,7 @@ This is where your contracts ABI is so that the front end can interact with it a
 
 Now that we have compiled our contracts, we can deploy it. For this example, we will deploy it to the localnet provided by Hardhat
 
->To specify the nextwork to deploy to, use the following command in the terminal ```npx hardhat run scripts/deploy.js --network <network name>```
+>To specify the network to deploy to, use the following command in the terminal ```npx hardhat run scripts/deploy.js --network <network name>```
 
 - [ ] Run the following command in the terminal:
 

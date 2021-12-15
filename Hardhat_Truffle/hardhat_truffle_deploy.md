@@ -19,7 +19,7 @@ cd truffle-example
 - [ ]Inside ```2_NumberChanger.js``` we will write the follwoing script
 
 ```js 
-const NumberChanger = artifacts.require("NumberChnager");
+const NumberChanger = artifacts.require("NumberChanger");
 
 module.exports = function (deployer) {
   deployer.deploy(NumberChanger);

@@ -25,11 +25,14 @@ module.exports = function (deployer) {
   deployer.deploy(NumberChanger);
 };
 ```
+
 We defined a variable called NumberChanger, but this can be any name you wish. Inside the variable, we call the ```artifacts.require``` method and pass in the name of our contract to interact with(not the name of the file), which in this case is also called ```"NumberChanger"```
 
 Afterwards, we export the function that would deploy the contract
 
 > To learn more about how migrations work, go here [Truffle Migration]("https://trufflesuite.com/docs/truffle/getting-started/running-migrations#migration-files")
+
+Since Truffle by default builds the contract ABI in the root directory, we will
 
 Now that we are setup, lets deploy our contract
 
@@ -124,7 +127,7 @@ This is where your contracts ABI is so that the front end can interact with it a
 
 Now that we have compiled our contracts, we can deploy it. For this example, we will deploy it to the localnet provided by Hardhat
 
->To specify the nextworkt to deploy to, use the following command in the terminal ```npx hardhat run scripts/deploy.js --network <network name>```
+>To specify the nextwork to deploy to, use the following command in the terminal ```npx hardhat run scripts/deploy.js --network <network name>```
 
 - [ ] Run the following command in the terminal:
 

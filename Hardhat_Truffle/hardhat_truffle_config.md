@@ -66,6 +66,8 @@ compilers: {
     }
 ```
 
+>You can also use ```"pragma"``` to specify the version of the compiler. This will get the version stated in your contract and use that.
+
 The next step is to set up our networks.
 
  Truffle provides two ways to create a local blockchain on our computer using [Ganache](https://www.trufflesuite.com/ganache)

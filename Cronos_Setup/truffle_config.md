@@ -1,6 +1,6 @@
 # Truffle Simple Storage on Cronos Testnet
 
-In this article, we will explore how to deploy a Simple Storgage contract from Truffle to Cronos' testnet.
+In this article, we will explore how to deploy a Simple storgage contract from Truffle to the Cronos testnet.
 
 ## About
 
@@ -22,7 +22,7 @@ It provides many usability including:
 
 - Fast and efficient scalability
 
-- Easy to port Dapps from Etheruem and other EVM compatable chains
+- Easy to port Dapps from Etheruem and other EVM compatible chains
 
 You can learn more about each here:
 
@@ -52,7 +52,7 @@ mkdir <project name>
 cd <project name>
 ```
 
-Now we will install Truffle into out project with the following cmmand:
+Now we will install Truffle into out project with the following command:
 
 ```sh
 truffle init
@@ -90,7 +90,7 @@ Use the following command to install npm.
 
  >You can use ```npm i```, I chose to use ```-y``` to bypass each setup step questions during the install
 
- Once we installed npm, we will import two dependecies we will use for our project
+ Once we installed npm, we will import two dependencies we will use for our project
 
 - [ ] [dotenv](https://www.npmjs.com/package/dotenv) to hide our private keys
 
@@ -128,7 +128,7 @@ contract SimpleStorage {
 
 >We won't get into too much of the code since this tutorial is more about deploying a contract using Truffle to the Cronos Testnet. Here is information on writing smart contracts using [Solidity](https://docs.soliditylang.org/en/latest/)
 
-Before moving on to configure the network, we will have to write a migration script.
+Next, we will have to write a migration script.
 
 Inside the ```migrations``` directory, add another file and name it ```2_deploy_SimpleStorage.js```
 
@@ -142,7 +142,7 @@ module.exports = function (deployer) {
 };
 ```
 
-> To learn more on how migrations in Truffle works, click [Here](https://trufflesuite.com/docs/truffle/getting-started/running-migrations.html)
+> To learn more on how migrations in Truffle works, [Here](https://trufflesuite.com/docs/truffle/getting-started/running-migrations.html)
 
 <br>
 
@@ -153,7 +153,7 @@ Now that we have a smart contract, we first have to configure the network before
 
 Let's set up the Cronos testnet configuration by going into the ```truffle-config.js``` file
 
-There are a lot of information about how to use this file, but we will simplfy it.
+There are a lot of information about how to use this file, but we will simplify it.
 
 Right above the ```module.exports = {``` , we will add the following:
 
@@ -167,7 +167,7 @@ Here we are getting the ```dotenv``` package to hide our private key later on an
 
 Next, we will setup the Cronos testnet configuration.
 
-Inside the ```networks: {``` find the rospten network and repalce it with the following code:
+Inside the ```networks: {``` find the rospten network and replace it with the following code:
 
 ```js
  cronosTestnet: {
@@ -210,12 +210,11 @@ module.exports = {
   },
 
 };
-
 ```
 
 ## Setting Up Test Account
 
-Before we can deploy our contract, we first have to connect our wallet to the testnet. In order to do so, we will configure it using Metamask. 
+Before we can deploy our contract, we first have to connect our wallet to the testnet. In order to do so, we will configure it using Metamask.
 
 You can find out more about Metamask [here](https://metamask.io/)
 
@@ -249,11 +248,11 @@ You can find out more about Metamask [here](https://metamask.io/)
   touch .env
   ```
 
-  This will create a file called ```.env``` in the root directoy. 
+  This will create a file called ```.env``` in the root directory. 
 
   Inside this directory, we will assign a the variable ```PRIVATE_KEY=``` our private key
 
-  To get the private key, go to the Metamask account you are using for the test and wen you click the 3 dots next to it, select the ```Account details```
+  To get the private key, go to the Metamask account you are using for the test and when you click the 3 dots next to it, select the ```Account details```
 
   Select the ```Export Private Key``` button. Metamask will ask for your account password and once you type that in, you should be given the private key. Now copy this key into the ```.env``` file.
 
@@ -262,7 +261,7 @@ You can find out more about Metamask [here](https://metamask.io/)
 ```js
 PRIVATE_KEY=e902eef0dd0a0c03845b9b743c7834839
 ```
->Note that this is not a real private and is used for demonstation purpose
+>Note that this is not a real private and is used for demonstration purpose
 
 Since we already declared this variable in our ```truffle-config``` file in the ```HDWallet-Provder``` method, we do not have to do anything else.
 
@@ -279,7 +278,7 @@ Now that we have:
 
 - A smart contract
 
-- Newtwork configuration setup
+- Network configuration setup
 
 - Connected Metamask account to the testnet
 
@@ -342,7 +341,7 @@ Starting migrations...
    -------------------------
    > transaction hash:    0x4feb1d3bd554d44a12e115646448224d36be69d8d9626f4d83e181c6bd97b50a
    > Blocks: 1            Seconds: 5
-   > contract address:    0xA7fB592C7651091e7fe24969c05262Aaa3300883
+   > contract address:    0x68118E9543a5CBded1d7255844b0FA40177C9641
    > block number:        1301730
    > block timestamp:     1641843795
    > account:             0x2880627569ffA41965536CE20B0596009eDfA744
@@ -361,3 +360,12 @@ Starting migrations...
 You should also notice that the amount of your test tokens has reduced.
 
 Finally, you can check that the contract has been deployed to Cronos' testnet by getting the contracts address that was created in the output of the terminal when it was deployed and paste it into Cronos' testnet block explorer [Here]( https://cronos.crypto.org/explorer/testnet3/)
+
+The result should look something similar to this:
+
+![ Transaction](assets/transaction.png)
+
+You can see that the contract was created and a transaction has been made to the contract on the Cronos testnet.
+
+Thanks for reading this article and I hope you find it useful.
+Stay tuned for more articles on blockchain, smart contracts and much more!

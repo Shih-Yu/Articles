@@ -128,6 +128,25 @@ contract SimpleStorage {
 
 >We won't get into too much of the code since this tutorial is more about deploying a contract using Truffle to the Cronos Testnet. Here is information on writing smart contracts using [Solidity](https://docs.soliditylang.org/en/latest/)
 
+Before moving on to configure the network, we will have to write a migration script.
+
+Inside the ```migrations``` directory, add another file and name it ```2_deploy_SimpleStorage.js```
+
+Now inside the file, write the following code:
+
+```js
+const SimpleStorage = artifacts.require("SimpleStorage");
+
+module.exports = function (deployer) {
+  deployer.deploy(SimpleStorage);
+};
+```
+
+> To learn more on how migrations in Truffle works, click [Here](https://trufflesuite.com/docs/truffle/getting-started/running-migrations.html)
+
+<br>
+
+
 ## Cronos Testnet Configuration
 
 Now that we have a smart contract, we first have to configure the network before we are able to deploy it to the testnet.
@@ -193,3 +212,152 @@ module.exports = {
 };
 
 ```
+
+## Setting Up Test Account
+
+Before we can deploy our contract, we first have to connect our wallet to the testnet. In order to do so, we will configure it using Metamask. 
+
+You can find out more about Metamask [here](https://metamask.io/)
+
+- [ ] Log into Metamask
+
+- [ ] Under the network menu at the top, click on the button to ```Add Network```
+ 
+- [ ] Input the following information to add a new network:
+
+  - Network Name: ```<Name to call Cronos Testnet>```
+
+  - RPC Url : ```https://cronos-testnet-3.crypto.org:8545/```
+
+  - ChainId: ```338```
+
+  - Symbol: ```tCro```
+
+  - Block Explorer URL: ```https://cronos.crypto.org/explorer/testnet3/```
+
+  Once the testnet is added to Metamask, we fill fund it with some test Cronos.
+
+  Go to the [faucet](https://cronos.crypto.org/faucet) and fund the account you will be testing with.
+
+  Now that we have setup our test network and have tCro, the last thing we need to do before deploying our contract is to pass in our account's private key in our ```truffle-config``` file.
+
+  In order to do this more securely, we will store the private key in a ```.env``` file.
+
+  In the root directory of the project, type in the following command:
+
+  ```sh
+  touch .env
+  ```
+
+  This will create a file called ```.env``` in the root directoy. 
+
+  Inside this directory, we will assign a the variable ```PRIVATE_KEY=``` our private key
+
+  To get the private key, go to the Metamask account you are using for the test and wen you click the 3 dots next to it, select the ```Account details```
+
+  Select the ```Export Private Key``` button. Metamask will ask for your account password and once you type that in, you should be given the private key. Now copy this key into the ```.env``` file.
+
+  It should look similar to the following.
+
+```js
+PRIVATE_KEY=e902eef0dd0a0c03845b9b743c7834839
+```
+>Note that this is not a real private and is used for demonstation purpose
+
+Since we already declared this variable in our ```truffle-config``` file in the ```HDWallet-Provder``` method, we do not have to do anything else.
+
+<details><summary>See Output</summary>
+
+```js
+provider: () => new HDWalletProvider(process.env.PRIVATE_KEY, `https://cronos-testnet-3.crypto.org:8545`),
+```
+</details>
+
+## Deploy smart contract
+
+Now that we have:
+
+- A smart contract
+
+- Newtwork configuration setup
+
+- Connected Metamask account to the testnet
+
+- Fund the account with test tokens
+
+We are able to deploy our contract to the testnet:
+
+In the root directory of the project, we can run the following truffle command to deploy our contract:
+
+```sh
+truffle deploy --network cronosTestnet
+```
+
+You should get similar output in the terminal
+
+<details><summary>See Output</summary>
+
+```sh
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'cronosTestnet'
+> Network id:      338
+> Block gas limit: 81500000 (0x4db9760)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x5be6f16117df6f65b170af759df881be8afc8f6b144790cec2fe26dc2ee8eeb7
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xAAEc9B476c0897d7A4b80Cdd61314446A402237e
+   > block number:        1301726
+   > block timestamp:     1641843771
+   > account:             0x2880627569ffA41965536CE20B0596009eDfA744
+   > balance:             98.74523
+   > gas used:            250954 (0x3d44a)
+   > gas price:           5000 gwei
+   > value sent:          0 ETH
+   > total cost:          1.25477 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:             1.25477 ETH
+
+
+2_deploy_SimpleStorage.js
+=========================
+
+   Deploying 'SimpleStorage'
+   -------------------------
+   > transaction hash:    0x4feb1d3bd554d44a12e115646448224d36be69d8d9626f4d83e181c6bd97b50a
+   > Blocks: 1            Seconds: 5
+   > contract address:    0xA7fB592C7651091e7fe24969c05262Aaa3300883
+   > block number:        1301730
+   > block timestamp:     1641843795
+   > account:             0x2880627569ffA41965536CE20B0596009eDfA744
+   > balance:             96.97724
+   > gas used:            308985 (0x4b6f9)
+   > gas price:           5000 gwei
+   > value sent:          0 ETH
+   > total cost:          1.544925 ETH
+
+
+   ⠋ Saving migration to chain.
+```
+
+</details>
+
+You should also notice that the amount of your test tokens has reduced.
+
+Finally, you can check that the contract has been deployed to Cronos' testnet by getting the contracts address that was created in the output of the terminal when it was deployed and paste it into Cronos' testnet block explorer [Here]( https://cronos.crypto.org/explorer/testnet3/)

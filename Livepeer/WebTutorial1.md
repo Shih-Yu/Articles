@@ -8,15 +8,15 @@ When creating a live stream ther are some equipments involved for the streamer. 
 
 Below are simplified steps to create a simple live stream:
 
-- [ ] Video source -  we will use the computer's built-in web camera.
+- [ ] Video source - built-in camera from computer
 
-- [ ] Audio source - we will use the computer's microphone
+- [ ] Audio source - built-in microphone from computer
 
-- [ ]Encoder - we will use OBS
+- [ ]Encoder - OBS software
 
-- [ ] Transcoder - we will use Livepeer
+- [ ] Transcoder - Livepeer
 
-- [ ] Video player - we will use JWPlayer
+- [ ] Video player -  JWPlayer
 
 We will do the following steps:
 
@@ -30,9 +30,68 @@ We will do the following steps:
 
 ### Using Livepeer
 
+- Open a browser and go to [Livepeer](https://livepeer.com/register) site and sign up for a free account.
+
+- Once an account is created and logged in, click on the `+ Create Stream` button and give your stream a name.
+
+> This should create a dashboard for this stream and provide information that we will need for other set up processes. For now, we will only need the `Stream Key`, `RTMP ingest URL`, and the `Playback URL`.
+
 ### Using JWPlayer
+
+- In a separate browser tab, go to [JWPlayer](https://info.jwplayer.com/sign-up/) and sign up for a free account.
+
+- Click on the `Upload from URL` button and paste in the `Playback URL` from Livepeer.
+
+> For this tutorial, we can just select the `No, don't host media on import` option.
+
+- Then clikc on `Add URLs` button and player is created for our live streaming.
 
 ### Installing OBS
 
+- Go to [OBS](https://obsproject.com/) website and download the format that suites your computer.
+
+- Install OBS and open the software.
+
+- Select the `settings` button on the menu located in the bottom right corner of the app, then click on `Stream` option on the left side of the menu.
+
+- Here is where we will add information for Livepeer streaming, enter the following information:
+  
+  - Service: `custom`
+
+  - Server: `RTMP ingest URL` from Livepeer
+
+  - Stream Key: `Stream Key` from Livepeer
+
+- Click `ok` button and back in the OBS interface
+
+  - We need to add a source before before we can start live streaming
+  
+  - Under ther source window on the bottom, click `+` and select `Video Capture Device`
+  
+  - Then give it a name and click `ok`
+  
+   Now we will select a device, which should be the default camera from your computer. Once it is selected, you should be able ot see the camera turn on and displaying an image. Click on the `ok` button and it should take you back to the interface.
+
+   We you click `Start Stream` you should see the same stream in the Livepeer page as well as the JWPlayer page.
+
+   We are now up and running for live streaming, but lets make this viewable on a simple webiste so others can see.
+
+   >Before we start the website, first get the embed code from JWPlayer by clicking the `Embed` button on the top of the page next to the red `Save` button.  A window should pop up and give you option to select the type of embed code. For this example, we will choose the IFrame format. Copy this code and we will add it to our website.
+
 ### Directory and file setup
 
+Find a location on your computer for where you want this file to be stored. Create a directory for it and a html file.
+
+```sh
+mkdir streamDemo && touch index.html
+```
+Now let change into the directory that we just created and open it with the code editor of your choice.
+
+```sh
+cd streamDemo
+```
+In the `index.html` file, we will create a simple web page, enter the code below into the file.
+
+```html
+
+```

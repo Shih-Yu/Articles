@@ -134,7 +134,7 @@ We will do the following steps:
 
   - [ ] Then give it a name and click `ok`
 
-  <details><summary>See Image</summary>
+<details><summary>See Image</summary>
 
 ![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS4.png)
 

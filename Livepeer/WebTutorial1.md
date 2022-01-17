@@ -61,11 +61,34 @@ We will do the following steps:
 
 - [ ] In a separate browser tab, go to [JWPlayer](https://info.jwplayer.com/sign-up/) and sign up for a free account.
 
+<details><summary>See Image</summary>
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer1.png)
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer2.png)
+</details>
+
 - [ ] Click on the `Upload from URL` button and paste in the `Playback URL` from Livepeer.
+
+<details><summary>See Image</summary>
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer1.png)
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer2.png)
+</details>
 
 > For this tutorial, we can just select the `No, don't host media on import` option.
 
 - [ ] Then click on `Add URLs` button and player is created for our live streaming.
+
+<details><summary>See Image</summary>
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer3.png)
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer4.png)
+
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer5.png)
+</details>
 
 ### Installing OBS
 

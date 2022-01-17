@@ -144,7 +144,7 @@ We will do the following steps:
 
   Now we will select a device, which should be the default camera from your computer. Once it is selected, you should be able ot see the camera turn on and displaying an image. Click on the `ok` button and it should take you back to the interface.
 
-  <details><summary>See Image</summary>
+<details><summary>See Image</summary>
 
 ![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS6.png)
 

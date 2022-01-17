@@ -2,21 +2,29 @@
 
 In this article, we will go through all the steps to build a simple website using html that will playback our live stream using Livepeer.
 
+<br>
+
 ## Workflow for live streaming
+
+---
+
+<br>
 
 When creating a live stream there are some equipments involved for the streamer. A live stream needs to have a `video source` for capturing the visuals, an `audio source` to capture the sounds, if any that goes with the video. After that is established, the raw data from both sources needs to be `encoded` so that it can be trasmitted over the internet. Afterwards, this data then needs to be converted to the ideal formats regardless of what the device is for viewing. This is what the `transcode` does. Finally, a `player` of some sort is used to play back the final version of the data and is what the viewer will see.
 
 Below are simplified steps to create a simple live stream:
 
-- [ ] Video source - built-in camera from computer
+<br>
 
-- [ ] Audio source - built-in microphone from computer
+| Equipment        | Description           |
+| ------------- |:-------------:|
+| Video source      | built-in camera from computer|
+| Audio source      | built-in microphone from computer |
+| Encoder  | OBS software    |
+| Transcoder | Livepeer    |
+| Video player  | JWPlayer   |
 
-- [ ] Encoder - OBS software
-
-- [ ] Transcoder - Livepeer
-
-- [ ] Video player - JWPlayer
+<br>
 
 We will do the following steps:
 
@@ -28,7 +36,11 @@ We will do the following steps:
 
 - [ ] Create our project
 
-### Using Livepeer
+<br>
+
+## Using Livepeer
+
+---
 
 - [ ] Open a browser and go to [Livepeer](https://livepeer.com/register) site and sign up for a free account.
 
@@ -60,7 +72,13 @@ We will do the following steps:
 
 </details>
 
-### Using JWPlayer
+<br>
+
+## Using JWPlayer
+
+---
+
+<br>
 
 - [ ] In a separate browser tab, go to [JWPlayer](https://info.jwplayer.com/sign-up/) and sign up for a free account.
 
@@ -92,7 +110,13 @@ We will do the following steps:
 
 </details>
 
+<br>
+
 ### Installing OBS
+
+---
+
+<br>
 
 - [ ] Go to [OBS](https://obsproject.com/) website and download the format that suites your computer.
 
@@ -142,6 +166,8 @@ We will do the following steps:
 
 </details>
 
+<br>
+
   Now we will select a device, which should be the default camera from your computer. Once it is selected, you should be able ot see the camera turn on and displaying an image. Click on the `ok` button and it should take you back to the interface.
 
 <details><summary>See Image</summary>
@@ -160,7 +186,11 @@ We will do the following steps:
 
   > Before we start the website, first get the embed code from JWPlayer by clicking the `Embed` button on the top of the page next to the red `Save` button. A window should pop up and give you option to select the type of embed code. For this example, we will choose the IFrame format and give it a little more style.
 
+<br>
+
 ### Directory and file setup
+
+---
 
 Find a location on your computer for where you want this file to be stored. Create a directory for it and a html file.
 
@@ -226,3 +256,9 @@ In the `index.html` file, we will create a simple web page, enter the code below
   </body>
 </html>
 ```
+
+Now we have completed a very simple website that we can do some live streaming on!
+
+Thanks for taking the time to read this article and I hope you find it useful.
+
+Stay tuned for more articles on live streaming, video technology and much more!

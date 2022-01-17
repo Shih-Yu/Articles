@@ -80,7 +80,6 @@ We will do the following steps:
 
 ![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer4.png)
 
-
 </details>
 
 > For this tutorial, we can just select the `No, don't host media on import` option.
@@ -97,9 +96,21 @@ We will do the following steps:
 
 - [ ] Go to [OBS](https://obsproject.com/) website and download the format that suites your computer.
 
+<details><summary>See Image</summary>
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS1.png)
+
+</details>
+
 - [ ] Install OBS and open the software.
 
 - [ ] Select the `settings` button on the menu located in the bottom right corner of the app, then click on `Stream` option on the left side of the menu.
+
+<details><summary>See Image</summary>
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS2.png)
+
+</details>
 
 - [ ] Here is where we will add information for Livepeer streaming, enter the following information:
 
@@ -109,6 +120,12 @@ We will do the following steps:
 
   - [ ] Stream Key: `Stream Key` from Livepeer
 
+<details><summary>See Image</summary>
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS3.png)
+
+</details>
+
 - [ ] Click `ok` button and back in the OBS interface
 
   - [ ] We need to add a source before before we can start live streaming
@@ -117,7 +134,25 @@ We will do the following steps:
 
   - [ ] Then give it a name and click `ok`
 
+  <details><summary>See Image</summary>
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS4.png)
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS5.png)
+
+</details>
+
   Now we will select a device, which should be the default camera from your computer. Once it is selected, you should be able ot see the camera turn on and displaying an image. Click on the `ok` button and it should take you back to the interface.
+
+  <details><summary>See Image</summary>
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS6.png)
+
+![OBS Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/OBS7.png)
+
+</details>
+
+<br>
 
   We you click `Start Stream` you should see the same stream in the Livepeer page as well as the JWPlayer page.
 

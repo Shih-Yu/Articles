@@ -76,9 +76,7 @@ We will do the following steps:
 
 <details><summary>See Image</summary>
 
-![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer1.png)
-
-![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer2.png)
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer3.png)
 
 </details>
 
@@ -87,8 +85,6 @@ We will do the following steps:
 - [ ] Then click on `Add URLs` button and player is created for our live streaming.
 
 <details><summary>See Image</summary>
-
-![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer3.png)
 
 ![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer4.png)
 

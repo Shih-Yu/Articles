@@ -4,7 +4,7 @@ In this article, we will go through all the steps to build a simple website usin
 
 ## Workflow for live streaming
 
-When creating a live stream ther are some equipments involved for the streamer. A streams needs to have a video source for capturing the visuals, an audio source to capture the sounds, if any that goes with the video. After that is established, the raw data from both sources needs to be converted so that it can be trasmitted over the internet. Afterwards, this data then needs to be converted to the ideal formats regardless of what the device is for viewing. This is what the transcode does. Finally, a player of some sort is used to play back the final version of the data and is what the view will see.
+When creating a live stream there are some equipments involved for the streamer. A live stream needs to have a `video source` for capturing the visuals, an `audio source` to capture the sounds, if any that goes with the video. After that is established, the raw data from both sources needs to be `encoded` so that it can be trasmitted over the internet. Afterwards, this data then needs to be converted to the ideal formats regardless of what the device is for viewing. This is what the `transcode` does. Finally, a `player` of some sort is used to play back the final version of the data and is what the viewer will see.
 
 Below are simplified steps to create a simple live stream:
 
@@ -32,7 +32,12 @@ We will do the following steps:
 
 - [ ] Open a browser and go to [Livepeer](https://livepeer.com/register) site and sign up for a free account.
 
-- [ ] Once an account is created and logged in, click on the `+ Create Stream` button and give your stream a name.
+<details><summary>See Image</summary>
+
+![Livepeer Site](Livepeer/assets/WebTutorial/Livepeer1.png)
+</details>
+
+- [ ] Once an account is created and logged in, select the `Stream` link from the left side menu. Click on the `+ Create Stream` button and give your stream a name.
 
 > This should create a dashboard for this stream and provide information that we will need for other set up processes. For now, we will only need the `Stream Key`, `RTMP ingest URL`, and the `Playback URL`.
 
@@ -44,7 +49,7 @@ We will do the following steps:
 
 > For this tutorial, we can just select the `No, don't host media on import` option.
 
-- [ ] Then clikc on `Add URLs` button and player is created for our live streaming.
+- [ ] Then click on `Add URLs` button and player is created for our live streaming.
 
 ### Installing OBS
 
@@ -85,11 +90,13 @@ Find a location on your computer for where you want this file to be stored. Crea
 ```sh
 mkdir streamDemo && touch index.html
 ```
-Now let change into the directory that we just created and open it with the code editor of your choice.
+
+Now lets change into the directory that we just created and open it with the code editor of your choice.
 
 ```sh
 cd streamDemo
 ```
+
 In the `index.html` file, we will create a simple web page, enter the code below into the file.
 
 ```html
@@ -142,4 +149,3 @@ In the `index.html` file, we will create a simple web page, enter the code below
   </body>
 </html>
 ```
-

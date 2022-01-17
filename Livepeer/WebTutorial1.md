@@ -158,7 +158,7 @@ We will do the following steps:
 
   We are now up and running for live streaming, but lets make this viewable on a simple webiste so others can see.
 
-  > Before we start the website, first get the embed code from JWPlayer by clicking the `Embed` button on the top of the page next to the red `Save` button. A window should pop up and give you option to select the type of embed code. For this example, we will choose the IFrame format. Copy this code and we will add it to our website.
+  > Before we start the website, first get the embed code from JWPlayer by clicking the `Embed` button on the top of the page next to the red `Save` button. A window should pop up and give you option to select the type of embed code. For this example, we will choose the IFrame format and give it a little more style.
 
 ### Directory and file setup
 

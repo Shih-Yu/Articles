@@ -12,7 +12,7 @@ Below are simplified steps to create a simple live stream:
 
 - [ ] Audio source - built-in microphone from computer
 
-- [ ]Encoder - OBS software
+- [ ] Encoder - OBS software
 
 - [ ] Transcoder - Livepeer
 
@@ -20,9 +20,9 @@ Below are simplified steps to create a simple live stream:
 
 We will do the following steps:
 
-- [ ]Create [Livepeer](https://livepeer.com/) account
+- [ ] Create [Livepeer](https://livepeer.com/) account
 
-- [ ]Create a [JWPlayer](https://www.jwplayer.com/) account
+- [ ] Create a [JWPlayer](https://www.jwplayer.com/) account
 
 - [ ] Download [OBS](https://obsproject.com/) broadcaster
 
@@ -30,45 +30,45 @@ We will do the following steps:
 
 ### Using Livepeer
 
-- Open a browser and go to [Livepeer](https://livepeer.com/register) site and sign up for a free account.
+- [ ] Open a browser and go to [Livepeer](https://livepeer.com/register) site and sign up for a free account.
 
-- Once an account is created and logged in, click on the `+ Create Stream` button and give your stream a name.
+- [ ] Once an account is created and logged in, click on the `+ Create Stream` button and give your stream a name.
 
 > This should create a dashboard for this stream and provide information that we will need for other set up processes. For now, we will only need the `Stream Key`, `RTMP ingest URL`, and the `Playback URL`.
 
 ### Using JWPlayer
 
-- In a separate browser tab, go to [JWPlayer](https://info.jwplayer.com/sign-up/) and sign up for a free account.
+- [ ] In a separate browser tab, go to [JWPlayer](https://info.jwplayer.com/sign-up/) and sign up for a free account.
 
-- Click on the `Upload from URL` button and paste in the `Playback URL` from Livepeer.
+- [ ] Click on the `Upload from URL` button and paste in the `Playback URL` from Livepeer.
 
 > For this tutorial, we can just select the `No, don't host media on import` option.
 
-- Then clikc on `Add URLs` button and player is created for our live streaming.
+- [ ] Then clikc on `Add URLs` button and player is created for our live streaming.
 
 ### Installing OBS
 
-- Go to [OBS](https://obsproject.com/) website and download the format that suites your computer.
+- [ ] Go to [OBS](https://obsproject.com/) website and download the format that suites your computer.
 
-- Install OBS and open the software.
+- [ ] Install OBS and open the software.
 
-- Select the `settings` button on the menu located in the bottom right corner of the app, then click on `Stream` option on the left side of the menu.
+- [ ] Select the `settings` button on the menu located in the bottom right corner of the app, then click on `Stream` option on the left side of the menu.
 
-- Here is where we will add information for Livepeer streaming, enter the following information:
+- [ ] Here is where we will add information for Livepeer streaming, enter the following information:
   
-  - Service: `custom`
+  - [ ] Service: `custom`
 
-  - Server: `RTMP ingest URL` from Livepeer
+  - [ ] Server: `RTMP ingest URL` from Livepeer
 
-  - Stream Key: `Stream Key` from Livepeer
+  - [ ] Stream Key: `Stream Key` from Livepeer
 
-- Click `ok` button and back in the OBS interface
+- [ ] Click `ok` button and back in the OBS interface
 
-  - We need to add a source before before we can start live streaming
+  - [ ] We need to add a source before before we can start live streaming
   
-  - Under ther source window on the bottom, click `+` and select `Video Capture Device`
+  - [ ] Under ther source window on the bottom, click `+` and select `Video Capture Device`
   
-  - Then give it a name and click `ok`
+  - [ ] Then give it a name and click `ok`
   
    Now we will select a device, which should be the default camera from your computer. Once it is selected, you should be able ot see the camera turn on and displaying an image. Click on the `ok` button and it should take you back to the interface.
 

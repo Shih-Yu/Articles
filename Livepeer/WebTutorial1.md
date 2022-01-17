@@ -35,11 +35,27 @@ We will do the following steps:
 <details><summary>See Image</summary>
 
 ![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer1.png)
+
+![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer2.png)
 </details>
 
 - [ ] Once an account is created and logged in, select the `Stream` link from the left side menu. Click on the `+ Create Stream` button and give your stream a name.
 
+<details><summary>See Image</summary>
+
+![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer3.png)
+
+![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer4.png)
+
+![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer5.png)
+</details>
+
 > This should create a dashboard for this stream and provide information that we will need for other set up processes. For now, we will only need the `Stream Key`, `RTMP ingest URL`, and the `Playback URL`.
+
+<details><summary>See Image</summary>
+
+![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer6.png)
+</details>
 
 ### Using JWPlayer
 

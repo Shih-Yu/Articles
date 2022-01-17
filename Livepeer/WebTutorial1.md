@@ -78,6 +78,9 @@ We will do the following steps:
 
 ![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer3.png)
 
+![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer4.png)
+
+
 </details>
 
 > For this tutorial, we can just select the `No, don't host media on import` option.
@@ -85,8 +88,6 @@ We will do the following steps:
 - [ ] Then click on `Add URLs` button and player is created for our live streaming.
 
 <details><summary>See Image</summary>
-
-![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer4.png)
 
 ![JWPlayer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/JWPlayer5.png)
 

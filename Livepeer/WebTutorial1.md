@@ -34,7 +34,7 @@ We will do the following steps:
 
 <details><summary>See Image</summary>
 
-![Livepeer Site](Livepeer/assets/WebTutorial/Livepeer1.png)
+![Livepeer Site](https://github.com/Shih-Yu/Articles/blob/9dc1d2957dfde7101ed59c26eb659d4d687548d3/Livepeer/assets/WebTutorial/Livepeer1.png)
 </details>
 
 - [ ] Once an account is created and logged in, select the `Stream` link from the left side menu. Click on the `+ Create Stream` button and give your stream a name.

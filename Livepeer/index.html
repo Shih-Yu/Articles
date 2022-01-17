@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <div style="position:relative; overflow:hidden; padding-bottom:56.25%"><iframe src="https://cdn.jwplayer.com/players/yPdwJR8o-jsypnem2.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="Index" style="position:absolute;" allowfullscreen></iframe></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Stream Demo</title>
+  </head>
+  <!-- Internal CSS styling  -->
+  <style>
+    body {
+      background-color: #0c0908;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 100px;
+      color: #8777d6;
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+    }
+
+    iframe {
+      border: 3px solid#8777D6;
+      border-radius: 5px;
+    }
+  </style>
+
+  <body>
+    <!-- Title of the page -->
+    <h1>Welcome to the live stream!</h1>
+    <div class="flex-container">
+      <iframe
+        src="https://cdn.jwplayer.com/players/yPdwJR8o-qHcvMMW9.html"
+        width="640"
+        height="360"
+        frameborder="0"
+        scrolling="auto"
+        title="WebDemo"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </body>
 </html>

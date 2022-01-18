@@ -130,7 +130,7 @@ We will do the following steps:
 
 </details>
 
->After the is installed, the app need to connec to the DJI network. Here is the instrutions on how
+>After the app is installed, the app needs to connect to the DJI network. Here is the instructions on how:
 
 <details><summary>See Instructions</summary>
 

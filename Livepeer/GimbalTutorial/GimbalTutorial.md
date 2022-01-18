@@ -167,6 +167,8 @@ Find OSMO in the App and enter Camera View.
 
 <details><summary>See Image</summary>
 
+![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI4.PNG)
+
 ![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI5.PNG)
 
 </details>
@@ -175,7 +177,7 @@ Find OSMO in the App and enter Camera View.
 
 <details><summary>See Image</summary>
 
-![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI5.PNG)
+![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI6.PNG)
 
 </details>
 

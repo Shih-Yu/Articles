@@ -120,13 +120,6 @@ We will do the following steps:
 
 - [ ] Go to [DJI Go](https://www.dji.com/downloads/djiapp/dji-go-3) website and download to your mobile device.
 
-<details><summary>See Image</summary>
-
-![DJI GoSite](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI1.PNG)
-
-</details>
-
-
 - [ ] Open the app and select your device. 
 
 >In this example, DJI OSMO+ will be used

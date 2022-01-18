@@ -176,7 +176,7 @@ Find OSMO in the App and enter Camera View.
 
 <br>
 
-  We are now up and running for live streaming, but lets make this viewable on a simple webiste so others can see.
+  We are now up and running for live streaming, but let;s make this viewable on a simple website so others can see.
 
   > Before we start the website, first get the embed code from JWPlayer by clicking the `Embed` button on the top of the page next to the red `Save` button. A window should pop up and give you option to select the type of embed code. For this example, we will choose the IFrame format and give it a little more style.
 
@@ -192,7 +192,7 @@ Find a location on your computer for where you want this file to be stored. Crea
 mkdir streamDemo && touch index.html
 ```
 
-Now lets change into the directory that we just created and open it with the code editor of your choice.
+Now change into the directory that we just created and open it with the code editor of your choice.
 
 ```sh
 cd streamDemo

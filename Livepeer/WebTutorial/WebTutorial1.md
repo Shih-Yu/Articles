@@ -198,7 +198,7 @@ Find a location on your computer for where you want this file to be stored. Crea
 mkdir streamDemo && touch index.html
 ```
 
-Now lets change into the directory that we just created and open it with the code editor of your choice.
+Now change into the directory that we just created and open it with the code editor of your choice.
 
 ```sh
 cd streamDemo

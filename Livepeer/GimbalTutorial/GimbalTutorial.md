@@ -10,7 +10,7 @@ In this article, we will go through all the steps to build a simple website usin
 
 <br>
 
-When creating a live stream there are some equipments involved for the streamer. A live stream needs to have a `video source` for capturing the visuals, an `audio source` to capture the sounds, if any that goes with the video. After that is established, the raw data from both sources needs to be `encoded` so that it can be trasmitted over the internet. Afterwards, this data then needs to be converted to the ideal formats regardless of what the device is for viewing. This is what the `transcode` does. Finally, a `player` of some sort is used to play back the final version of the data and is what the viewer will see.
+When creating a live stream there are some equipments involved for the streamer. A live stream needs to have a `video source` for capturing the visuals, an `audio source` to capture the sounds, if any that goes with the video. After that is established, the raw data from both sources needs to be `encoded` so that it can be transmitted over the internet. Afterwards, this data then needs to be converted to the ideal formats regardless of what the device is for viewing. This is what the `transcode` does. Finally, a `player` of some sort is used to play back the final version of the data and is what the viewer will see.
 
 Below are simplified steps to create a simple live stream:
 

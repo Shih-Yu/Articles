@@ -180,7 +180,7 @@ We will do the following steps:
 
 <br>
 
-  We you click `Start Stream` you should see the same stream in the Livepeer page as well as the JWPlayer page.
+  When you click `Start Stream` you should see the same stream in the Livepeer page as well as the JWPlayer page.
 
   We are now up and running for live streaming, but lets make this viewable on a simple webiste so others can see.
 

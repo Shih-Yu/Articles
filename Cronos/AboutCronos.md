@@ -26,9 +26,13 @@ We will explore each of the following that is part of this ecosystem.
 
 ## Crypto.org Chain
 
-The public and open-sourced blockchain that deals with handling tranactions of 
+The public and open-sourced blockchain that deals with handling tranactions of Crypto.com 
 
 Also uses the native token of CRO
+
+- Crypto.com has an ERC-20 token called CRO and the addsress uses sha256 format, which starts with `0x`
+
+- Crypto.org has a native token also called CRO, but the address uses bech32 format, which starts with `crc`
 
 ## Particle B
 

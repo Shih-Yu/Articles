@@ -120,13 +120,13 @@ We will do the following steps:
 
 - [ ] Go to [DJI Go](https://www.dji.com/downloads/djiapp/dji-go-3) website and download to your mobile device.
 
-- [ ] Open the app and select your device. 
+- [ ] Open the app and select your device.
 
 >In this example, DJI OSMO+ will be used
 
 <details><summary>See Image</summary>
 
-![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI1.PNG)
+![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/0a357df1e75f901cac5dbb7c9157a0913418b137/Livepeer/assets/GimbalTutorial/DJI1.PNG)
 
 </details>
 
@@ -145,9 +145,9 @@ Find OSMO in the App and enter Camera View.
 
 <details><summary>See Image</summary>
 
-![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI2.PNG)
+![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/0a357df1e75f901cac5dbb7c9157a0913418b137/Livepeer/assets/GimbalTutorial/DJI2.PNG)
 
-![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI3.PNG)
+![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/0a357df1e75f901cac5dbb7c9157a0913418b137/Livepeer/assets/GimbalTutorial/DJI3.PNG)
 
 </details>
 
@@ -170,7 +170,7 @@ Find OSMO in the App and enter Camera View.
 
 <details><summary>See Image</summary>
 
-![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/main/Livepeer/assets/GimbalTutorial/DJI6.PNG)
+![DJI Go Site](https://github.com/Shih-Yu/Articles/blob/0a357df1e75f901cac5dbb7c9157a0913418b137/Livepeer/assets/GimbalTutorial/DJI6.PNG)
 
 </details>
 
